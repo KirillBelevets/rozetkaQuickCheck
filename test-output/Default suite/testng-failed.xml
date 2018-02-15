@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.rozetka.cartQuickTest.SearchTest">
+        <methods>
+          <include name="deleteThirdProduct"/>
+          <include name="addFridgesToCart" invocation-numbers="1 2 3 4 5"/>
+          <include name="setUp"/>
+          <include name="cartQuickCheckTest"/>
+          <include name="countSum"/>
+        </methods>
+      </class> <!-- com.rozetka.cartQuickTest.SearchTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
